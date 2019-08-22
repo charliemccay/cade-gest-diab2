@@ -1,0 +1,12 @@
+Name,Type,Description,Reference,Datatype,Constraints,Component,Cardinality
+Birth,Activity,The birth of the patient.,,,,,
+Age,Fact,The current age of the patient.,,Integer,,,
+Gender,Fact,The gender of the patient.,,String,"['Male','Female','Unknown']",,
+Childless,Activity,,,,,,
+Conceive,Activity,,,,,,
+Male,Activity,,,,,,
+HasFirstChild,Fact,,,,,,
+WeightInKg,Fact,,,,,,
+HeightInCm,Fact,,,,,,
+GPvisit,Acivity,,,,,,
+FirstAntenatal,Activity,,,,,,

@@ -1,0 +1,45 @@
+201{
+  "resourceType": "OperationOutcome",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">INFORMATION</td><td>[]</td><td><pre>Successfully created resource \"Patient/ee076dc5-aa0a-4e4d-a108-6ad1dc90a03e/_history/1\" in 5ms</pre></td>\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t</tr>\n\t\t</table>\n\t</div>"
+  },
+  "issue": [
+    {
+      "severity": "information",
+      "code": "informational",
+      "diagnostics": "Successfully created resource \"Patient/ee076dc5-aa0a-4e4d-a108-6ad1dc90a03e/_history/1\" in 5ms"
+    }
+  ]
+}  {"resourceType": "Patient",
+          "id": "ee076dc5-aa0a-4e4d-a108-6ad1dc90a03e",
+          "active": true,
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://ramseysystems.co.uk",
+              "value": "4",
+              "assigner": {
+                "display": "CADE Simulation"
+              }
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Bray",
+              "given": [
+                "Anthony"
+              ]
+            }
+          ],
+          "birthDate": "1971-08-26"
+        }

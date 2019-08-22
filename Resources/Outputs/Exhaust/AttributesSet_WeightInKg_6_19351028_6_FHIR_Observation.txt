@@ -1,0 +1,48 @@
+201{
+  "resourceType": "OperationOutcome",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">INFORMATION</td><td>[]</td><td><pre>Successfully created resource \"Observation/4124a9bd-be78-4f4f-a2a6-e1f5d95a6de9/_history/1\" in 12ms</pre></td>\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t</tr>\n\t\t</table>\n\t</div>"
+  },
+  "issue": [
+    {
+      "severity": "information",
+      "code": "informational",
+      "diagnostics": "Successfully created resource \"Observation/4124a9bd-be78-4f4f-a2a6-e1f5d95a6de9/_history/1\" in 12ms"
+    }
+  ]
+}{
+  "resourceType": "Observation",
+  "id": 4124a9bd-be78-4f4f-a2a6-e1f5d95a6de9,
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "27113001",
+        "display": "Body weight"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/1184ebbe-d8fc-4eae-8ed9-d60c8734a2c8"
+  },
+  "effectiveDateTime": "1935-10-28",
+  "valueQuantity": {
+    "value": "70",
+    "unit": "kg",
+    "system": "http://unitsofmeasure.org",
+    "code": "kg"
+  }
+}

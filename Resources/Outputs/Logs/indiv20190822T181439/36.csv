@@ -1,0 +1,14 @@
+EventID,Pathway,Node,DecisionTable,Attribute,Value,Date
+30,GestationalDiabetes,GenderDecision,,,,1958-04-20T00:00:00
+30,GestationalDiabetes,GenderDecision,,HasFirstChild,True,1958-04-20T00:00:00
+30,GestationalDiabetes,GenderDecision,,WeightInKg,"{'quantity': 98, 'unit': 'kg'}",1958-04-20T00:00:00
+30,GestationalDiabetes,GenderDecision,,HeightInCm,"{'quantity': 162, 'unit': 'cm'}",1958-04-20T00:00:00
+31,GestationalDiabetes,Wait4Conception,,,,1958-04-20T00:00:00
+32,GestationalDiabetes,CheckHasOneChild,,,,1958-04-20T00:00:00
+152,GestationalDiabetes,ConceiveFirstChild,,,,1999-04-03T00:00:00
+153,GestationalDiabetes,WaitToSeeGP,,,,1999-04-03T00:00:00
+154,GestationalDiabetes,GPvisit,,,,1999-04-03T00:00:00
+155,GestationalDiabetes,Wait2SeeMidwife,,,,1999-06-26T00:00:00
+156,GestationalDiabetes,FirstAntenatal,,,,1999-06-26T00:00:00
+157,GestationalDiabetes,Finish,,,,1999-10-31T00:00:00
+158,GestationalDiabetes,Finish,,,,1999-10-31T00:00:00

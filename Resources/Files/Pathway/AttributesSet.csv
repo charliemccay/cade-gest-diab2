@@ -1,0 +1,5 @@
+Pathway,Node,GivenAttribute,GivenAttributeType,OfValue,Percentage,Attribute,DataType,Value
+GestationalDiabetes,Birth,,,,0.4,HasFirstChild,Boolean,False
+GestationalDiabetes,Birth,,,,0.6,HasFirstChild,Boolean,True
+GestationalDiabetes,Birth,,,,0.6,WeightInKg,Integer,"{'quantity':randint(44,104),'unit':'kg'}"
+GestationalDiabetes,Birth,,,,0.6,HeightInCm,Integer,"{'quantity':randint(154,204),'unit':'cm'}"

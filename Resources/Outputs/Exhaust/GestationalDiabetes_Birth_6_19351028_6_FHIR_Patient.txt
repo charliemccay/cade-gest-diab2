@@ -1,0 +1,45 @@
+201{
+  "resourceType": "OperationOutcome",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">INFORMATION</td><td>[]</td><td><pre>Successfully created resource \"Patient/1184ebbe-d8fc-4eae-8ed9-d60c8734a2c8/_history/1\" in 4ms</pre></td>\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t</tr>\n\t\t</table>\n\t</div>"
+  },
+  "issue": [
+    {
+      "severity": "information",
+      "code": "informational",
+      "diagnostics": "Successfully created resource \"Patient/1184ebbe-d8fc-4eae-8ed9-d60c8734a2c8/_history/1\" in 4ms"
+    }
+  ]
+}  {"resourceType": "Patient",
+          "id": "1184ebbe-d8fc-4eae-8ed9-d60c8734a2c8",
+          "active": true,
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://ramseysystems.co.uk",
+              "value": "6",
+              "assigner": {
+                "display": "CADE Simulation"
+              }
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Chambers",
+              "given": [
+                "Brooke"
+              ]
+            }
+          ],
+          "birthDate": "1938-05-20"
+        }

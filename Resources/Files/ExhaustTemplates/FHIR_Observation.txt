@@ -1,0 +1,35 @@
+{
+  "resourceType": "Observation",
+  "id": {{ item_id }},
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "27113001",
+        "display": "Body weight"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/{{ person.patient_id }}"
+  },
+  "effectiveDateTime": "{{ activity_time }}",
+  "valueQuantity": {
+    "value": "{{ person.WeightInKg['quantity'] }}",
+    "unit": "kg",
+    "system": "http://unitsofmeasure.org",
+    "code": "kg"
+  }
+}

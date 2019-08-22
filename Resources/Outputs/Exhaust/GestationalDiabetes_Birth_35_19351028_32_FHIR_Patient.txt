@@ -1,0 +1,45 @@
+201{
+  "resourceType": "OperationOutcome",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">INFORMATION</td><td>[]</td><td><pre>Successfully created resource \"Patient/4fdf8633-7616-46d3-b0a7-af9afa153ec4/_history/1\" in 5ms</pre></td>\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t</tr>\n\t\t</table>\n\t</div>"
+  },
+  "issue": [
+    {
+      "severity": "information",
+      "code": "informational",
+      "diagnostics": "Successfully created resource \"Patient/4fdf8633-7616-46d3-b0a7-af9afa153ec4/_history/1\" in 5ms"
+    }
+  ]
+}  {"resourceType": "Patient",
+          "id": "4fdf8633-7616-46d3-b0a7-af9afa153ec4",
+          "active": true,
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://ramseysystems.co.uk",
+              "value": "32",
+              "assigner": {
+                "display": "CADE Simulation"
+              }
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Coleman",
+              "given": [
+                "Sam"
+              ]
+            }
+          ],
+          "birthDate": "1960-09-24"
+        }
