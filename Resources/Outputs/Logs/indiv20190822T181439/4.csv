@@ -1,7 +1,0 @@
-EventID,Pathway,Node,DecisionTable,Attribute,Value,Date
-58,GestationalDiabetes,GenderDecision,,,,1971-08-26T00:00:00
-58,GestationalDiabetes,GenderDecision,,HasFirstChild,True,1971-08-26T00:00:00
-58,GestationalDiabetes,GenderDecision,,WeightInKg,"{'quantity': 93, 'unit': 'kg'}",1971-08-26T00:00:00
-58,GestationalDiabetes,GenderDecision,,HeightInCm,"{'quantity': 186, 'unit': 'cm'}",1971-08-26T00:00:00
-59,GestationalDiabetes,Male,,,,1971-08-26T00:00:00
-60,GestationalDiabetes,Male,,,,1971-08-26T00:00:00

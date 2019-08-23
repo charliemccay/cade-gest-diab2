@@ -9,8 +9,10 @@ docker run -it -p 8080:8080 smartonfhir/hapi:r3-empty
 
 Once the FHIR server is running, you can then run the CADE container which will post the patients and observations to the FHIR server.
 
-docker run -v /Users/charliemccay/cade-gest-diab2/Resources:/app/Resources ramseysys/cade2r1 start.py
+docker run -v /Users/charliemccay/cade-gest-diab2/Resources:/app/Resources --network="host" ramseysys/cade2r1 start.py
 
 The FHIR server can be stopped with ctrl-c.  When it is started again it will be empty.  This implementation of CADE uses UUIDs for the resource identifiers, so can be run multiple times without clashing identifiers - every time someone is born they are assumed to be a new person.
 
 The BPMN models can be edited with the Camunda Modelling tool: https://camunda.com/download/modeler/
+
+In future there will be a docker-compose file that combines the FHIR server and the CADE2 app in a closed docker network.
